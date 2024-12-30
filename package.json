@@ -1,0 +1,29 @@
+{
+  "devDependencies": {
+    "husky": "^9.1.7"
+  },
+  "name": "musical-school-website",
+  "version": "1.0.0",
+  "description": "Página web utilizando React y Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasSDiez/musical-school-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasSDiez/musical-school-website/issues"
+  },
+  "homepage": "https://github.com/NicolasSDiez/musical-school-website#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  }
+}
